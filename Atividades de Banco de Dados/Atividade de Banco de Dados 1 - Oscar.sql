@@ -33,7 +33,7 @@
 -- 8- Em qual edição do Oscar "Crash" ganhou o prêmio principal? -- Na edicação de 2006 do Oscar.
 -- SELECT * from movies WHERE film LIKE "%Crash%" AND winner = 'True';
 
--- 9- Bom... dê um Oscar para um filme que merece muito, mas não ganhou. -- Whisper of the Heart
+-- 9- Bom... dê um Oscar para um filme que merece muito, mas não ganhou. -- Whisper of the Heart. Shizuku e Seiji, nossos cueridos do romances.
 -- USE movies_data;
 -- INSERT INTO movies (year_film, year_ceremony, ceremony, category, `name`, film, winner) 
 -- VALUES ('2002', '2003', '75', 'ANIMATED FEATURE FILM', 'Yoshifumi Kondō', 'Whisper of the Heart', 'True');
