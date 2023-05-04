@@ -1,5 +1,5 @@
 # 📘 Atividades-de-Banco-de-Dados
-Aqui você encontrará atividades propostas para o estudo de Banco de Dados.
+Aqui você encontrará atividades propostas para o estudo de Banco de Dados. Elas foram feitas utilizando o MySQL Workbench.
 1. E o Oscar vai para... ?
 
 ## 🔹E o Oscar vai para... ?
