@@ -8,3 +8,9 @@ Prêmios têm sim o seu valor, mas que eles não são o único indicador de suce
 Aqui você irá estudar enquanto trabalha com dados sobre os premiados do Oscar.
 
 <a href='https://github.com/gabrielaasouza/Atividades-de-Banco-de-Dados/blob/main/Atividades%20de%20Banco%20de%20Dados/Atividade%20de%20Banco%20de%20Dados%201%20-%20Oscar.sql'>Veja a atividade aqui.</a>
+
+<div align="center">
+<img src='https://github.com/gabrielaasouza/Atividades-de-Banco-de-Dados/blob/main/Imagens/Oscar-2023.jpg' width="50%"/>
+</div>
+
+
