@@ -137,7 +137,7 @@ Em 2003, o melhor filme foi Chicago, Adrien Brody ganhou o prêmio de Melhor Ato
 <code>VALUES ('2003', '2004', '75', 'ACTRESS IN A SUPPORTING ROLE', 'Keisha Castle-Hughes', 'A Encantadora de Baleias', 'False')</code>
 
 <h3>16. Agora vamos falar da sua vida. Me diga o nome de uma pessoa que você admira e o que ela fez na sua vida. Agora me diz: Quê prêmio essa pessoa merece?</h3>
-Eziládia, ela deixa a minha vida mais colorida. Ela merece o prêmio de melhor pessoa, mas hoje vamos dar o de Melhor Atriz.
+Eziládia, ela deixa a minha vida mais colorida. Ela merece o prêmio de melhor pessoa, mas hoje vamos dar o de Melhor Atriz no melhor filme do ano.
 <br>
 <code>INSERT INTO movies (year_film, year_ceremony, ceremony, category, `name`, film, winner)</code> <br>
 <code>VALUES ('2023', '2024', '96', 'ACTRESS', 'Eziládia Araújo', 'Everything Everywhere All at Once', '1');</code><br>
