@@ -33,7 +33,7 @@
 -- 8- Em qual edição do Oscar "Crash" ganhou o prêmio principal? -- Na edicação de 2006 do Oscar.
 -- SELECT * from movies WHERE film LIKE "%Crash%" AND winner = 'True';
 
--- 9- Bom... dê um Oscar para um filme que merece muito, mas não ganhou. -- Whisper of the Heart. Shizuku e Seiji, nossos cueridos do romances.
+-- 9- Bom... dê um Oscar para um filme que merece muito, mas não ganhou. -- Whisper of the Heart. Shizuku e Seiji, nossos queridos do romances.
 -- USE movies_data;
 -- INSERT INTO movies (year_film, year_ceremony, ceremony, category, `name`, film, winner) 
 -- VALUES ('2002', '2003', '75', 'ANIMATED FEATURE FILM', 'Yoshifumi Kondō', 'Whisper of the Heart', 'True');
@@ -68,11 +68,14 @@
 -- INSERT INTO movies (year_film, year_ceremony, ceremony, category, `name`, film, winner) 
 -- VALUES ('2002', '2003', '75', 'BEST FILM EVER', 'Yoshifumi Kondō', 'Whisper of the Heart', 'True');
 
--- 13- Qual foi o primeiro ano a ter um prêmio do Oscar? -- 1928 foi o primeiro ano a ter um prêmio do Oscar
+-- 13- Qual foi o primeiro ano a ter um prêmio do Oscar? -- 1928 foi o primeiro ano a ter um prêmio do Oscar.
 -- SELECT * from movies;
 
 -- 14- Pensando no ano em que você nasceu: Qual foi o Oscar de melhor filme, Melhor Atriz e Melhor Diretor? -- Em 2003, o melhor filme foi Chicago, Adrien Brody ganhou o prêmio de Melhor Ator e Nicole Kidman o de Melhor Atriz.
--- SELECT * from movies WHERE year_ceremony = 2003 AND winner = 'True';
+-- SELECT * FROM movies where year_ceremony like '2003' and category like '%BEST PICTURE%' and winner = 1;
+-- SELECT * FROM movies where year_ceremony like '%2003%' and category like '%ACTRESS%' and winner = 1;
+-- SELECT * FROM movies where year_ceremony like '%2003%' and category like '%DIRECTING%' and winner = 1;
+
 
 -- 15- Agora procure 7 atrizes que não sejam americanas, europeias ou brasileiras.  
 -- Vamos cadastrá-los no nosso banco, mas eles ainda não ganharam o Oscar. Só foram nomeados.
@@ -102,3 +105,5 @@
 -- 16- Agora vamos falar da sua vida. 
 -- Me diga o nome de uma pessoa que você admira e o que ela fez na sua vida. Agora me diz: Quê prêmio essa pessoa merece?
 -- Eziládia, ela deixa a minha vida mais colorida. Ela merece o prêmio de melhor pessoa.
+-- INSERT INTO movies (year_film, year_ceremony, ceremony, category, `name`, film, winner) 
+-- VALUES ('2023', '2024', '96', 'ACTRESS', 'Eziládia Araújo', 'Everything Everywhere All at Once', '1');
